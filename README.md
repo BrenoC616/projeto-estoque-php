@@ -1,1 +1,1 @@
-# projeto-estoque-php
+# Projeto Estoque PHP
