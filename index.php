@@ -11,12 +11,12 @@
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navber-expand-md bg-primary navbar-dark shadow">
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark shadow">
             <a class="navbar-brand" href="#">Estoque</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapibleNavbar">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">
@@ -49,6 +49,23 @@
                                 <div class="form-group">
                                     <label for="email">Seu E-mail</label>
                                     <input class="form-control" name="email" type="text" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <a class="float-right" href="#">Esqueceu?</a>
+                                    <label for="">Sua senha</label>
+                                    <input class="form-control" type="password" placeholder="*******">
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label for="">
+                                            <input type="checkbox"> Salvar senha
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block" type="submit">
+                                        Login
+                                    </button>
                                 </div>
                             </form>
                         </article>
