@@ -30,7 +30,7 @@
             <a class="nav-link" href="#"> Sobre </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> Cadastro </a>
+            <a class="nav-link" href="./pages/cadastro.php"> Cadastro </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"> Políticas </a>
@@ -45,7 +45,7 @@
         <div class="col-sm-4">
           <div class="card">
             <article class="card-body">
-              <a class="float-right btn btn-outline-primary" href="#"
+              <a class="float-right btn btn-outline-primary" href="./pages/cadastro.php"
                 >Registrar</a
               >
               <h4 class="card-title mb-4 mt-1">Entrar</h4>
