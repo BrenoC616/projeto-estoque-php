@@ -58,7 +58,10 @@
           </div>
           <div class="col-12">
             <label for="cargo" class="form-label">Cargo</label>
-            <input type="text" name="cargo" id="cargo" class="form-control" placeholder="Insira seu cargo na empresa">
+            <input type="text" name="cargo" id="cargo" class="form-control" placeholder="Insira seu cargo na empresa"><br><br>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
           </div>
         </form>
       </div>
