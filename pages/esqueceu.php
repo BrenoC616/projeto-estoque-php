@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro de Usuário | Controle de Estoque</title>
+    <title>Recuperar Senha | Controle de Estoque</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
@@ -34,37 +34,19 @@
     </nav>
     <br><br>
     <div class="container">
-      <div class="row d-flex justify-content-center">
-        <form action="" class="row g-3">
-          <div class="col-md-6">
-            <label for="nome" class="form-label">Nome</label>
-            <input type="text" name="nome" id="nome" class="form-control">
+      <form>
+        <div class="row d-flex justify-content-center">
+          <div class="col-6">
+            <label for="email" class="form-label">Insira seu Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Seu Email ...">
           </div>
-          <div class="col-md-6">
-            <label for="sobrenome" class="form-label">Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome" class="form-control"><br>
+        </div><br>
+        <div class="row d-flex justify-content-center">
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary form-control"> Recuperar Senha </button>
           </div>
-          <div class="col-md-6">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" name="email" id="email" class="form-control">
-          </div>
-          <div class="col-md-6">
-            <label for="senha" class="form-label">Senha</label>
-            <input type="password" name="senha" id="senha" class="form-control" placeholder="*********"><br>
-          </div>
-          <div class="col-12">
-            <label for="empresa" class="form-label">Empresa</label>
-            <input type="text" name="empresa" id="empresa" class="form-control" placeholder="Insira o nome da empresa"><br>
-          </div>
-          <div class="col-12">
-            <label for="cargo" class="form-label">Cargo</label>
-            <input type="text" name="cargo" id="cargo" class="form-control" placeholder="Insira seu cargo na empresa"><br><br>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
-          </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   </body>
 </html>

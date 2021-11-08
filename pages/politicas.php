@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro de Usuário | Controle de Estoque</title>
+    <title>Políticas | Controle de Estoque</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
@@ -35,35 +35,20 @@
     <br><br>
     <div class="container">
       <div class="row d-flex justify-content-center">
-        <form action="" class="row g-3">
-          <div class="col-md-6">
-            <label for="nome" class="form-label">Nome</label>
-            <input type="text" name="nome" id="nome" class="form-control">
-          </div>
-          <div class="col-md-6">
-            <label for="sobrenome" class="form-label">Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome" class="form-control"><br>
-          </div>
-          <div class="col-md-6">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" name="email" id="email" class="form-control">
-          </div>
-          <div class="col-md-6">
-            <label for="senha" class="form-label">Senha</label>
-            <input type="password" name="senha" id="senha" class="form-control" placeholder="*********"><br>
-          </div>
-          <div class="col-12">
-            <label for="empresa" class="form-label">Empresa</label>
-            <input type="text" name="empresa" id="empresa" class="form-control" placeholder="Insira o nome da empresa"><br>
-          </div>
-          <div class="col-12">
-            <label for="cargo" class="form-label">Cargo</label>
-            <input type="text" name="cargo" id="cargo" class="form-control" placeholder="Insira seu cargo na empresa"><br><br>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
-          </div>
-        </form>
+        <div class="col-10 card" style="width: 18rem;">
+          <p class="text-muted" style="font-size: 19px; font-family:'Times New Roman', Times, serif">
+            <strong>Políticas e termo de uso</strong><br>
+            <span>
+              Como condição para acesso e uso das funcionalidades exclusivas nos nossos ambientes, você declara que fez a leitura completa e atenta deste Termo de Uso e Política de Privacidade, conferindo, assim, sua livre e expressa concordância com os termos aqui estipulados, incluindo a coleta dos Dados aqui mencionados, bem como sua utilização como especificado abaixo. Caso você não esteja de acordo com as disposições do Termo de Uso e Política de Privacidade, você deverá descontinuar o seu acesso ou uso dos nossos ambientes.
+            </span><br><br>
+            <strong>Rastreabilidade</strong><br>
+            <span>
+              Utilizamos tecnologia de software designada por sinalizadores da web para prestar apoio na compreensão de quais são os conteúdos eficazes, por exemplo, mediante a contagem dos Usuários que visitaram determinadas páginas.
+
+              Os sinalizadores da web consistem em pequenos gráficos com um identificador único, cuja função é semelhante aos cookies, e que são utilizados para que se possa saber se determinado conteúdo é visualizado. Ao contrário dos cookies, que são armazenados no computador do Usuário, os sinalizadores da web estão invisivelmente embutidos nas páginas da web.
+            </span>    
+          </p>
+        </div>
       </div>
     </div>
   </body>
