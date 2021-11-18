@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estoque | Controle de Estoque</title>
+    <title>Cadastro de Depósito | Controle de Estoque</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -78,7 +78,7 @@
             >
               <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                  <a href="./index.php" class="nav-link active" aria-current="page"
+                  <a href="./index.php" class="nav-link text-white" aria-current="page"
                     ><i class="fa fa-home" aria-hidden="true"></i> Home</a
                   >
                 </li>
@@ -89,7 +89,7 @@
                   >
                 </li>
                 <li>
-                  <a href="./deposito.php" class="nav-link text-white"
+                  <a href="./deposito.php" class="nav-link text-white active"
                     ><i class="fa fa-pencil-square" aria-hidden="true"></i>
                     Cadastrar Depósito</a
                   >
@@ -126,9 +126,34 @@
           <div class="row">
             <span
               class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted"
-              >Home</span
+              >Home / Cadastrar Depósito</span
             >
-            <div class="col w-100 mx-2 mt-2">Área de conteúdo ...</div>
+            <div class="col w-100 mx-2 mt-2 text-muted">
+              <br>
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label">Nome de Depósito</label>
+                  <input type="text" class="form-control" id="nome" name="nome">
+                </div>
+                <div class="mb-3">
+                  <label for="responsavel" class="form-label">Responsável</label>
+                  <input type="text" class="form-control" id="responsavel" name="responsavel">
+                </div>
+                <div class="mb-3">
+                  <label for="status" class="form-label">Status</label>
+                  <select class="form-select form-control" name="status" id="status">
+                    <option selected>--------</option>
+                    <option value="Ativo">Ativo</option>
+                    <option value="Inativo">Inativo</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="descricao" class="form-label">Descrição</label>
+                  <textarea class="form-control" name="descricao" id="descricao" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+              </form>
+            </div>
           </div>
         </main>
       </div>
